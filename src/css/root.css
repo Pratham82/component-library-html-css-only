@@ -1,13 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 /* Reset CSS */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
+/* Common styles */
 :root {
-  font-family: 'Poppins', sans-serif;
+  /* Default colors */
+  --default-text: #1e293b;
+  --body: #f1f5f9;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Oxygen', sans-serif;
+  --tertiary-font: 'Lato', sans-serif;
+
+  /* Colors */
+
+  /** primary  **/
+  /* --color-primary: #1482ff;
+  --color-primary-rgb: 20, 130, 255;
+  --color-primary-shade: #1272e0;
+  --color-primary-tint: #2c8fff; */
+
+  --color-primary: #075eff;
+  --color-primary-rgb: 7, 94, 255;
+  --color-primary-shade: #0653e0;
+  --color-primary-tint: #206eff;
+
+  /** secondary (slate-300) **/
+  --color-secondary: #cbd5e1;
+  --color-secondary-rgb: 203, 213, 225;
+  --color-secondary-shade: #b3bbc6;
+  --color-secondary-tint: #d0d9e4;
+
+  /** tertiary (slate-200) **/
+  --color-tertiary: #e2e8f0;
+  --color-tertiary-rgb: 226, 232, 240;
+  --color-tertiary-shade: #c7ccd3;
+  --color-tertiary-tint: #e5eaf2;
+
+  /** success **/
+  --color-success: #2dd36f;
+  --color-success-rgb: 45, 211, 111;
+  --color-success-shade: #28ba62;
+  --color-success-tint: #42d77d;
+
+  /** warning **/
+  --color-warning: #ffc409;
+  --color-warning-rgb: 255, 196, 9;
+  --color-warning-shade: #e0ac08;
+  --color-warning-tint: #ffca22;
+
+  /** danger **/
+  --color-danger: #eb445a;
+  --color-danger-rgb: 235, 68, 90;
+  --color-danger-shade: #cf3c4f;
+  --color-danger-tint: #ed576b;
+
+  /** dark **/
+  --color-dark: #222428;
+  --color-dark-rgb: 34, 36, 40;
+  --color-dark-shade: #1e2023;
+  --color-dark-tint: #383a3e;
+
+  /** medium **/
+  --color-medium: #f3f3f3;
+  --color-medium-rgb: 243, 243, 243;
+  --color-medium-shade: #d6d6d6;
+  --color-medium-tint: #f4f4f4;
+
+  /** light **/
+  --color-light: #ffffff;
+  --color-light-rgb: 255, 255, 255;
+  --color-light-shade: #e0e0e0;
+  --color-light-tint: #ffffff;
+
+  /* Text */
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.125em; /* 18px */
+  --text-xl: 1.25rem; /* 20px */
+  --text-2xl: 1.5rem; /* 24px*/
+  --text-3xl: 1.875rem; /* 30px*/
+  --text-4xl: 2.25rem; /* 36px*/
+  --text-5xl: 3rem; /* 48px*/
+
+  /* Padding / Margin units */
+  --u-0: 0px; /* 0px */
+  --u-1: 1px; /* 1px */
+  --u-2: 0.125rem; /* 2px */
+  --u-4: 0.25rem; /* 4px */
+  --u-6: 0.375rem; /* 6px */
+  --u-8: 0.5rem; /* 8px */
+  --u-10: 0.625rem; /* 10px */
+  --u-12: 0.75rem; /* 12px */
+  --u-14: 0.875rem; /* 14px */
+  --u-16: 1rem; /* 16px */
+  --u-20: 1.25rem; /* 20px */
+  --u-24: 1.5rem; /* 24px */
+  --u-28: 1.75rem; /* 28px */
+  --u-32: 2rem; /* 32px */
+  --u-36: 2.25rem; /* 36px */
+  --u-40: 2.5rem; /* 40px */
+  --u-60: 3.75rem; /* 60px */
+
+  /* Shadows */
+  --normal-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --floating-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+}
+
+::selection {
+  color: var(--color-light);
+  background: var(--color-primary);
+}
+::moz-selection {
+  color: var(--color-light);
+  background: var(--color-primary);
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--body);
 }

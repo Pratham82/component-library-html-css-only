@@ -1,0 +1,86 @@
+.main-container {
+  width: 100%;
+  max-width: 800px;
+  min-height: 100vh;
+  height: max-content;
+  margin: auto;
+  padding: var(--u-60) var(--u-20) 0 var(--u-20);
+  position: relative;
+}
+
+/* Landing page content */
+.main-content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Main Buttons */
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-get-started,
+.main-github {
+  border: none;
+  outline: none;
+  padding: var(--u-14) var(--u-20);
+  margin: var(--u-8);
+  font-size: var(--text-base);
+  font-family: var(--tertiary-font);
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: var(--normal-shadow);
+}
+
+.main-get-started {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  color: var(--color-light);
+}
+
+.main-get-started:hover {
+  transition: 0.3s ease-in-out;
+  background-color: var(--color-primary-shade);
+  box-shadow: none;
+}
+
+.main-github {
+  color: var(--default-text);
+  background-color: var(--color-tertiary);
+  border: 0.015px solid var(--color-secondary);
+}
+
+.main-github:hover {
+  background-color: var(--color-tertiary-shade);
+  transition: 0.3s ease-in-out;
+  box-shadow: none;
+}
+
+.main-hero-heading {
+  font-family: var(--tertiary-font);
+  font-size: var(--text-5xl);
+  font-weight: 900;
+  margin-top: 200px;
+  margin-bottom: var(--u-20);
+}
+
+.main-hero-desc {
+  font-family: var(--tertiary-font);
+  font-size: var(--text-2xl);
+  margin-bottom: var(--u-40);
+}
+
+/* Mobile styles */
+@media screen and (max-width: 800px) {
+  .main-hero-heading {
+    margin-top: 150px;
+    font-size: var(--text-2xl);
+  }
+  .main-hero-desc {
+    font-size: var(--text-xl);
+  }
+}

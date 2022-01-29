@@ -1,0 +1,37 @@
+@import url(./root.css);
+.documentation-container {
+  /* border: 1px solid red; */
+  display: flex;
+  padding: var(--u-20) 0;
+  font-family: var(--tertiary-font);
+}
+
+.sidebar {
+  flex-basis: 200px;
+}
+
+.intro-list {
+  padding-left: var(--u-10);
+  margin-bottom: var(--u-20);
+  font-size: var(--text-lg);
+  overflow-y: scroll;
+}
+
+.intro-list > ul > li > a {
+  display: block;
+  padding-top: var(--u-10);
+}
+
+.active-link a {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.documentation-component {
+  flex-grow: 1;
+  font-family: var(--tertiary-font);
+}
+
+.content-title {
+  font-size: var(--text-3xl);
+}
