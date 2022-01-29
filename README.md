@@ -1,8 +1,7 @@
-# \_ UI
+# Min UI
 
 ## P0
 
-<hr/>
 
 - [ ] Alert
 
@@ -16,11 +15,9 @@
 
 - [ ] Input
 
-<hr/>
 
 ## P1
 
-<hr/>
 
 - [ ] Text Utilities
 
@@ -36,11 +33,9 @@
 
 - [ ] Simplified Grid
 
-<hr/>
 
 ## P2
 
-<hr/>
 
 - [ ] Navigation
 
