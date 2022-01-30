@@ -14,7 +14,6 @@
   padding-left: var(--u-10);
   margin-bottom: var(--u-20);
   font-size: var(--text-lg);
-  overflow-y: scroll;
 }
 
 .intro-list > ul > li > a {
