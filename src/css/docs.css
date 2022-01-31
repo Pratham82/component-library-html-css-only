@@ -1,4 +1,5 @@
 @import url(./root.css);
+@import url(./utility.css);
 .documentation-container {
   /* border: 1px solid red; */
   display: flex;
@@ -13,12 +14,18 @@
 .intro-list {
   padding-left: var(--u-10);
   margin-bottom: var(--u-20);
-  font-size: var(--text-lg);
+  font-size: var(--text-sm);
+  font-family: var(--primary-font);
 }
 
 .intro-list > ul > li > a {
   display: block;
   padding-top: var(--u-10);
+}
+
+.intro-list > ul > li > a:hover {
+  color: var(--color-primary);
+  transition: 0.3s ease-in-out;
 }
 
 .active-link a {
@@ -28,9 +35,48 @@
 
 .documentation-component {
   flex-grow: 1;
+  max-width: 560px;
   font-family: var(--tertiary-font);
 }
 
 .content-title {
   font-size: var(--text-3xl);
+  margin-bottom: var(--u-20);
+}
+
+.content-subtitle {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--u-10);
+}
+
+.content-description {
+  font-size: var(--text-base);
+  margin-bottom: var(--u-20);
+}
+
+.component-display {
+  background-color: var(--color-tertiary);
+  margin-top: var(--u-10);
+  margin-bottom: var(--u-24);
+  padding: var(--u-20) var(--u-10);
+  border-radius: var(--rounded-md);
+  border: var(--u-1) solid var(--color-secondary-tint);
+}
+
+.highlighted-text {
+  background-color: var(--color-secondary);
+  color: var(--color-dark);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: var(--text-sm);
+}
+
+.code-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-tertiary);
+  padding-top: var(--u-14);
+  margin-bottom: var(--u-24);
+  border-radius: var(--rounded-md);
+  border: var(--u-1) solid var(--color-secondary-tint);
 }

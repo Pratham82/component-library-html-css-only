@@ -31,7 +31,7 @@
   margin: var(--u-8);
   font-size: var(--text-base);
   font-family: var(--tertiary-font);
-  border-radius: 5px;
+  border-radius: var(--rounded-md);
   cursor: pointer;
   box-shadow: var(--normal-shadow);
 }
