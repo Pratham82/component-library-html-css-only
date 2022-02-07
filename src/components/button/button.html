@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Getting Started</title>
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/main.css" />
-    <link rel="stylesheet" href="../../css/docs.css" />
-    <link rel="stylesheet" href="./avatar.css" />
+    <link rel="stylesheet" href="./button.css" />
   </head>
   <body>
     <header class="header">
@@ -45,6 +42,139 @@
         </div>
         <div class="documentation-component">
           <h1 class="content-title">Button</h1>
+          <h2 class="content-subtitle">Filled Button</h2>
+          <p class="content-description">
+            This is default profile avatar which can be added with
+            <span class="highlighted-text">typ-filled-btn</span> class
+          </p>
+          <div class="component-display flex flex-col items-center text-center">
+            <button class="btn primary-filled-btn">Primary</button>
+            <button class="btn success-filled-btn">Success</button>
+            <button class="btn warning-filled-btn">Warning</button>
+            <button class="btn danger-filled-btn">Danger</button>
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=520&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520primary-filled-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520success-filled-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520warning-filled-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520danger-filled-btn%2522%253EDanger%253C%252Fbutton%253E"
+              style="
+                width: 560px;
+                height: 196px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="content-subtitle">Filled Button</h2>
+          <p class="content-description">
+            This is default profile avatar which can be added with
+            <span class="highlighted-text">typ-outlined-btn</span> class
+          </p>
+          <div class="component-display flex flex-col items-center text-center">
+            <button class="btn primary-outlined-btn">Primary</button>
+            <button class="btn success-outlined-btn">Success</button>
+            <button class="btn warning-outlined-btn">Warning</button>
+            <button class="btn danger-outlined-btn">Danger</button>
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520success-outlined-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2522%253EWarn%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520danger-outlined-btn%2522%253EDanger%253C%252Fbutton%253E"
+              style="
+                width: 560px;
+                height: 234px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="content-subtitle">Button With Icons</h2>
+          <p class="content-description">
+            This is default profile avatar which can be added with
+            <span class="highlighted-text">icon-btn-type</span> class
+          </p>
+          <div class="component-display flex flex-col items-center text-center">
+            <button class="btn icon-btn-add">
+              <span class="icon-wrapper">
+                <i class="far fa-shopping-cart"></i>
+              </span>
+              Add to cart
+            </button>
+            <button class="btn icon-btn-save">
+              <span class="icon-wrapper">
+                <i class="far fa-save"></i>
+              </span>
+              Save
+            </button>
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520icon-btn-add%2522%253E%250A%2509%253Cspan%2520class%253D%2522icon-wrapper%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522far%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fspan%253E%250A%2509Add%2520to%2520cart%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn-save%2522%253E%250A%2509%253Cspan%2520class%253D%2522icon-wrapper%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522far%2520fa-save%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fspan%253E%250A%2509Save%250A%253C%252Fbutton%253E"
+              style="
+                width: 560px;
+                height: 345px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="content-subtitle">Floating Action Button</h2>
+          <p class="content-description">
+            This is default profile avatar which can be added with
+            <span class="highlighted-text">floating-btn</span> class
+          </p>
+          <div class="component-display flex flex-col items-center text-center">
+            <button class="btn floating-btn">
+              <i class="far fa-plus"></i>
+            </button>
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520floating-btn%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+              style="
+                width: 560px;
+                height: 178px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="content-subtitle">Link Button</h2>
+          <p class="content-description">
+            This is default profile avatar which can be added with
+            <span class="highlighted-text">floating-btn</span> class
+          </p>
+          <div class="component-display flex flex-col items-center text-center">
+            <button class="btn link-btn">Link</button>
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520floating-btn%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+              style="
+                width: 560px;
+                height: 178px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </main>
