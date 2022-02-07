@@ -106,7 +106,7 @@
   box-shadow: none;
 }
 
-/* Icon classes */
+/* Icon button */
 .icon-wrapper {
   margin-right: 5px;
 }
@@ -130,6 +130,8 @@
   transform: scale(0.95);
 }
 
+/* Floating button */
+
 .floating-btn {
   border-radius: var(--rounded-full);
   background-color: var(--color-primary);
@@ -141,4 +143,23 @@
 .floating-btn:active {
   background-color: var(--color-primary-tint);
   transform: scale(0.95);
+}
+
+/* Link button */
+.link-btn {
+  font-size: var(--text-md);
+  border-radius: 0%;
+  box-shadow: none;
+  color: var(--color-primary);
+}
+
+.link-btn:hover {
+  color: var(--color-primary-tint);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.link-btn:active {
+  color: var(--color-primary-tint);
+  border-bottom: 2px solid var(--color-primary);
+  transform: scaleX(0.95);
 }
