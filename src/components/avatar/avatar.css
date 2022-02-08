@@ -1,3 +1,5 @@
+@import url('../../css/index.css');
+
 .avatar {
   width: var(--u-60);
   margin: 0 var(--u-10);
