@@ -123,3 +123,13 @@
 .btn-h {
   margin-left: var(--u-6);
 }
+
+.btn-disabled {
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+  cursor: not-allowed;
+}
+.btn-disabled:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+}
