@@ -26,10 +26,6 @@
   /* Colors */
 
   /** primary  **/
-  /* --color-primary: #1482ff;
-  --color-primary-rgb: 20, 130, 255;
-  --color-primary-shade: #1272e0;
-  --color-primary-tint: #2c8fff; */
 
   --color-primary: #075eff;
   --color-primary-rgb: 7, 94, 255;
@@ -130,6 +126,14 @@
   /* Shadows */
   --normal-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --floating-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+  --faint-shadow :: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  /* common transition */
+  --normal-transition: 0.3s ease-in-out;
+  --normal-transform: scale(0.99);
+
+--material-shadow : rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
 }
 
 ::selection {
