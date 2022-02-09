@@ -70,7 +70,7 @@
   z-index: 2;
   margin-top: var(--u-6);
   padding: 7.75em 0;
-  background-color: --color-secondary-overlay;
+  background-color: var(--color-secondary-overlay);
   width: 12.75em;
   border-radius: var(--rounded-md);
   text-align: center;
