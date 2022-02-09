@@ -33,7 +33,7 @@
               <li><a href="../avatar/avatar.html">Avatar</a></li>
               <li><a href="../alert/alert.html">Alert</a></li>
               <li><a href="../badge/badge.html">Badge</a></li>
-              <li><a href="./button.html">Button</a></li>
+              <li><a href="../button/button.html">Button</a></li>
               <li><a href="../card/card.html">Card</a></li>
               <li class="active-link"><a href="./image.html">Image</a></li>
               <li><a href="../input/input.html">Input</a></li>
@@ -42,6 +42,109 @@
         </div>
         <div class="documentation-component">
           <h1 class="content-title">Image</h1>
+
+          <h2 class="content-subtitle">Images with different sizes</h2>
+          <p>
+            Images with different sizes are available with class
+            <span class="highlighted-text">img img-sm</span>,
+            <span class="highlighted-text"> img-md</span> and
+            <span class="highlighted-text">img img-lg</span> for small, medium
+            and large image
+          </p>
+          <div class="component-display flex flex-col items-center">
+            <img
+              class="img img-sm"
+              src="https://picsum.photos/1920/1080"
+              alt="img-sm"
+            />
+            <img
+              class="img img-md"
+              src="https://picsum.photos/1920/1080"
+              alt="img-md"
+            />
+            <img
+              class="img img-lg"
+              src="https://picsum.photos/1920/1080"
+              alt="img-lg"
+            />
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2520%2520class%253D%2522img%2520img-sm%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1920%252F1080%2522%250A%2520%2520alt%253D%2522img-sm%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520class%253D%2522img%2520img-md%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1920%252F1080%2522%250A%2520%2520alt%253D%2522img-md%2522%250A%252F%253E%250A%253Cimg%250A%2520%2520class%253D%2522img%2520img-lg%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1920%252F1080%2522%250A%2520%2520alt%253D%2522img-lg%2522%250A%252F%253E"
+              style="
+                width: 560px;
+                height: 401px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="content-subtitle">Responsive Image</h2>
+          <p>
+            Responsive images can be used with
+            <span class="highlighted-text">img-fluid</span> class
+          </p>
+          <div class="component-display flex justify-center">
+            <img
+              class="img img-fluid"
+              src="https://picsum.photos/1920/1080"
+              alt="img-fluid"
+            />
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%250A%2520%2520%2520class%253D%2522img%2520img-fluid%2522%250A%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1920%252F1080%2522%250A%2520%2520%2520alt%253D%2522img-fluid%2522%250A%2520%252F%253E"
+              style="
+                width: 560px;
+                height: 215px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="content-subtitle">Round image</h2>
+          <p>
+            For making image rounded add
+            <span class="highlighted-text">img-rounded</span> class, also for
+            making a whole circle height and width of the image should be same,
+            for that add <span class="highlighted-text">sm-square</span> and
+            <span class="highlighted-text">md-square</span> for small and large
+            images
+          </p>
+          <div class="component-display flex justify-center">
+            <img
+              class="img img-sm sm-square img-rounded"
+              src="https://picsum.photos/1920/1080"
+              alt="img-sm"
+            />
+            <img
+              class="img img-md md-square img-rounded"
+              src="https://picsum.photos/1920/1080"
+              alt="img-md"
+            />
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2520%2520class%253D%2522img%2520img-sm%2520sm-square%2520img-rounded%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1920%252F1080%2522%250A%2520%2520alt%253D%2522img-sm%2522%250A%2520%252F%253E%250A%253Cimg%250A%2520%2520class%253D%2522img%2520img-md%2520md-square%2520img-rounded%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1920%252F1080%2522%250A%2520%2520alt%253D%2522img-md%2522%250A%252F%253E"
+              style="
+                width: 560px;
+                height: 308px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </main>
