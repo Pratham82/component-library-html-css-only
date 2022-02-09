@@ -64,12 +64,38 @@
 /* padding */
 
 /* Text alignment */
-.text-center{
+.text-center {
   text-align: center;
 }
-.text-right{
+.text-right {
   text-align: right;
 }
-.text-left{
+.text-left {
   text-align: left;
+}
+
+/* Display styles */
+.hidden {
+  display: none;
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+
+/* Shadows */
+.normal-shadow {
+  box-shadow: var(--normal-shadow);
+}
+
+.floating-shadow {
+  box-shadow: var(--floating-shadow);
+}
+
+.faint-shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.material-shadow {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
