@@ -37,6 +37,7 @@
   --color-secondary-rgb: 203, 213, 225;
   --color-secondary-shade: #b3bbc6;
   --color-secondary-tint: #d0d9e4;
+  --color-secondary-overlay: #d0d9e494;
 
   /** tertiary (slate-200) **/
   --color-tertiary: #e2e8f0;
