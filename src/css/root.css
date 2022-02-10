@@ -26,7 +26,6 @@
   /* Colors */
 
   /** primary  **/
-
   --color-primary: #075eff;
   --color-primary-rgb: 7, 94, 255;
   --color-primary-shade: #0653e0;
@@ -38,6 +37,7 @@
   --color-secondary-shade: #b3bbc6;
   --color-secondary-tint: #d0d9e4;
   --color-secondary-overlay: #d0d9e494;
+  --color-gold: #FFD700;
 
   /** tertiary (slate-200) **/
   --color-tertiary: #e2e8f0;
