@@ -56,13 +56,40 @@
         </div>
         <div class="documentation-component">
           <h1 class="content-title">Navigation</h1>
-          <h2 class="content-subtitle">2 x 2 Grid</h2>
+          <h2 class="content-subtitle">Simple navigation</h2>
           <!-- <p>
             Default input can be used with
             <span class="highlighted-text">input-default</span> class
           </p> -->
-          <div class="component-display"></div>
-          <div class="code-wrapper"></div>
+          <div class="component-display">
+            <nav class="nav-simple">
+              <div class="nav-heading">Brand</div>
+              <input
+                type="text"
+                class="nav-search"
+                placeholder="Search product"
+              />
+              <ul class="nav-list">
+                <li>Home</li>
+                <li>Wishlist</li>
+                <li>Cart</li>
+              </ul>
+            </nav>
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-simple%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-heading%2522%253EBrand%253C%252Fdiv%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520class%253D%2522nav-search%2522%250A%2520%2520%2520%2520placeholder%253D%2522Search%2520product%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253Cul%2520class%253D%2522nav-list%2522%253E%250A%2520%2520%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EWishlist%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ECart%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E"
+              style="
+                width: 560px;
+                height: 364px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </main>
