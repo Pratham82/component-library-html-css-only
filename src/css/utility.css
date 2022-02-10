@@ -99,3 +99,11 @@
 .material-shadow {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
+
+.divider{
+  display: block;
+  height: var(--u-2);
+  width: 70%;
+  margin-top: var(--u-8);
+  background-color: var(--color-primary);
+}
