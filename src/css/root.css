@@ -44,6 +44,7 @@
   --color-tertiary-rgb: 226, 232, 240;
   --color-tertiary-shade: #c7ccd3;
   --color-tertiary-tint: #e5eaf2;
+  --color-gray: gray;
 
   /** success **/
   --color-success: #2dd36f;
