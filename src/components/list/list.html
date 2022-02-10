@@ -54,13 +54,108 @@
         </div>
         <div class="documentation-component">
           <h1 class="content-title">List</h1>
-          <h2 class="content-subtitle">2 x 2 Grid</h2>
-          <!-- <p>
-            Default input can be used with
-            <span class="highlighted-text">input-default</span> class
-          </p> -->
-          <div class="component-display"></div>
-          <div class="code-wrapper"></div>
+          <h2 class="content-subtitle">Spaced list</h2>
+          <p>
+            Normal spaced list can be used with
+            <span class="highlighted-text">spaced-list</span> for list and
+            <span class="highlighted-text">list-item</span> for adding item in
+            the list. Alternative version of this list is also avaialble using
+            <span class="highlighted-text">spaced-list-alt</span>.
+          </p>
+          <div class="component-display flex justify-between">
+            <ul class="spaced-list">
+              <li class="list-item">Svelte</li>
+              <li class="list-item">React</li>
+              <li class="list-item">Next.js</li>
+              <li class="list-item">Angular</li>
+              <li class="list-item">Vue.js</li>
+            </ul>
+            <ul class="spaced-list-alt">
+              <li class="list-item">Svelte</li>
+              <li class="list-item">React</li>
+              <li class="list-item">Next.js</li>
+              <li class="list-item">Angular</li>
+              <li class="list-item">Vue.js</li>
+            </ul>
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522spaced-list%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESvelte%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EReact%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENext.js%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EAngular%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EVue.js%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522spaced-list-alt%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESvelte%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EReact%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENext.js%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EAngular%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EVue.js%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+              style="
+                width: 560px;
+                height: 401px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="content-subtitle">Stacked list (Notification list)</h2>
+          <p>
+            For using notification list, add
+            <span class="highlighted-text">stacked-list</span> class for list.
+            For using item in stacked list use
+            <span class="highlighted-text">stacked-list-item</span>. Using image
+            in stacked list you have to use
+            <span class="highlighted-text">list-img</span> and for showing
+            content use <span class="highlighted-text">list-content</span>.
+          </p>
+          <div class="component-display flex justify-center">
+            <ul class="stacked-list">
+              <li class="stacked-list-item">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  class="list-img"
+                  alt=""
+                />
+                <div class="list-content">
+                  <div class="sender-title">John Doe</div>
+                  <div class="sender-text">Hey whats's up ?</div>
+                </div>
+              </li>
+              <li class="stacked-list-item">
+                <img
+                  src="https://randomuser.me/api/portraits/men/13.jpg"
+                  class="list-img"
+                  alt=""
+                />
+                <div class="list-content">
+                  <div class="sender-title">Drake smith</div>
+                  <div class="sender-text">
+                    How's this sprint coming up, facing any difficulties ?
+                  </div>
+                </div>
+              </li>
+              <li class="stacked-list-item">
+                <img
+                  src="https://randomuser.me/api/portraits/men/4.jpg"
+                  class="list-img"
+                  alt=""
+                />
+                <div class="list-content">
+                  <div class="sender-title">John Doe</div>
+                  <div class="sender-text">What about this weekend man ?</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="code-wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28226%2C232%2C240%2C1%29&t=nord&wt=none&l=auto&width=500&ds=false&dsyoff=7px&dsblur=100px&wc=true&wa=false&pv=24px&ph=18px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Frandomuser.me%252Fapi%252Fportraits%252Fmen%252F32.jpg%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522list-img%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sender-title%2522%253EJohn%2520Doe%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sender-text%2522%253EHey%2520whats%27s%2520up%2520%253F%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Frandomuser.me%252Fapi%252Fportraits%252Fmen%252F13.jpg%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522list-img%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sender-title%2522%253EDrake%2520smith%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sender-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520How%27s%2520this%2520sprint%2520coming%2520up%252C%2520facing%2520any%2520difficulties%2520%253F%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Frandomuser.me%252Fapi%252Fportraits%252Fmen%252F4.jpg%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522list-img%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sender-title%2522%253EJohn%2520Doe%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sender-text%2522%253EWhat%2520about%2520this%2520weekend%2520man%2520%253F%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+              style="
+                width: 560px;
+                height: 885px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </main>
