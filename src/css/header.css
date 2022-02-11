@@ -33,3 +33,18 @@ a span {
   max-width: 800px;
   padding: 0 var(--u-20);
 }
+
+.btn-icon {
+  padding-left: var(--u-2);
+}
+
+.git-link {
+  display: flex;
+  align-items: center;
+  color: var(--color-dark);
+  cursor: pointer;
+}
+
+.git-link:hover {
+  color: var(--color-dark-shade);
+}
