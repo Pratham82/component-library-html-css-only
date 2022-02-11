@@ -1,3 +1,5 @@
+@import url('../components/text-utilities/text-utilities.css');
+
 .main-container {
   width: 100%;
   max-width: 800px;
@@ -36,6 +38,90 @@
   box-shadow: var(--normal-shadow);
 }
 
+.btn-icon {
+  padding-left: var(--u-6);
+  display: block;
+}
+
+.pallet {
+  width: 140px;
+  height: 100px;
+  margin: var(--u-4);
+  border: var(--u-1) solid var(--color-dark);
+  text-align: center;
+}
+.text-light {
+  color: var(--color-light);
+}
+
+.primary-bg {
+  background-color: var(--color-primary);
+}
+
+.primary-tint-bg {
+  background-color: var(--color-primary-tint);
+}
+
+.primary-shade-bg {
+  background-color: var(--color-primary-shade);
+}
+
+.secondary-bg {
+  background-color: var(--color-secondary);
+}
+
+.secondary-tint-bg {
+  background-color: var(--color-secondary-tint);
+}
+
+.secondary-shade-bg {
+  background-color: var(--color-secondary-shade);
+}
+.tertiary-bg {
+  background-color: var(--color-tertiary);
+}
+
+.tertiary-tint-bg {
+  background-color: var(--color-tertiary-tint);
+}
+
+.tertiary-shade-bg {
+  background-color: var(--color-tertiary-shade);
+}
+.success-bg {
+  background-color: var(--color-success);
+}
+
+.success-tint-bg {
+  background-color: var(--color-success-tint);
+}
+
+.success-shade-bg {
+  background-color: var(--color-success-shade);
+}
+.warning-bg {
+  background-color: var(--color-warning);
+}
+
+.warning-tint-bg {
+  background-color: var(--color-warning-tint);
+}
+
+.warning-shade-bg {
+  background-color: var(--color-warning-shade);
+}
+
+.danger-bg {
+  background-color: var(--color-danger);
+}
+
+.danger-tint-bg {
+  background-color: var(--color-danger-tint);
+}
+
+.danger-shade-bg {
+  background-color: var(--color-danger-shade);
+}
 .main-get-started {
   background-color: var(--color-primary);
   color: var(--color-tertiary);
