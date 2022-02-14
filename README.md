@@ -8,8 +8,6 @@
 
 ## Usage
 
----
-
 Add following link tag to index.html for using the components.
 
 ```html
@@ -19,8 +17,6 @@ Add following link tag to index.html for using the components.
 <br/>
 
 ## Components included
-
----
 
 ### Avatar
 
