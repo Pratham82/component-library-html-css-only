@@ -1,3 +1,5 @@
+@import url('../css/index.css');
+
 .flex {
   display: flex;
 }
@@ -735,3 +737,22 @@
 .mr-80 {
   margin-right: 5rem; /* 80px */
 }
+
+/* Background color */
+
+.bg-light {
+  background-color: var(--color-light);
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+}
+
+/* Border */
+.border-dark {
+  border: var(--u-1) solid var(--color-dark);
+}
+
+/* .item {
+  flex-grow: 1;
+} */
