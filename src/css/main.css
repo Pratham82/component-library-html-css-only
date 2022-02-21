@@ -170,3 +170,9 @@
     font-size: var(--text-xl);
   }
 }
+
+@media screen and (max-width: 620px) {
+  .main-container {
+    padding: var(--u-36) var(--u-20);
+  }
+}

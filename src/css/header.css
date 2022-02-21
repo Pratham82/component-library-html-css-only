@@ -48,3 +48,15 @@ a span {
 .git-link:hover {
   color: var(--color-dark-shade);
 }
+
+/* ---------------------Media queries-------------------- */
+@media screen and (max-width: 620px) {
+  .sidebar {
+    display: none;
+  }
+
+  .header {
+    justify-content: space-between;
+    padding: 1rem 0.1rem;
+  }
+}

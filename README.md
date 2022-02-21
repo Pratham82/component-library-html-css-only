@@ -14,34 +14,72 @@ Add following link tag to index.html for using the components.
 <link rel="stylesheet" href="https://min-ui.netlify.app/src/css/minui.css" />
 ```
 
+### Running in local
+
+Clone the project
+
+```shell
+git clone https://github.com/Pratham82/min-ui
+```
+
+Navigate to the project
+
+```
+cd min-ui
+```
+
 <br/>
 
-## Components included
+## Components
 
-### Avatar
+---
 
-### Alert
+#### Avatar
 
-### Badge
+#### Alert
 
-### Button
+#### Badge
 
-### Card
+#### Button
 
-### Image
+#### Card
 
-### Input
+#### Image
 
-### Grid
+#### Input
 
-### List
+---
 
-### Modal
+#### Grid
 
-### Navigation
+#### List
 
-### Rating
+#### Modal
 
-### Text Utilities
+#### Navigation
 
-### Toast
+#### Rating
+
+#### Text Utilities
+
+#### Toast
+
+---
+
+#### Slider
+
+#### Utility classes
+
+<br/>
+
+## Connect with me
+
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
+[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter1]
+[<img src = "https://img.shields.io/badge/gmail-%23E4405F.svg?&style=for-the-badge&logo=gmail&logoColor=white">][gmail]
+
+[website]: https://blog-2020-pratham82.netlify.app/
+[instagram]: https://instagram.com/pratham82
+[linkedin]: https://www.linkedin.com/in/prathameshmali/
+[gmail]: mailto:http://www.mali.prathamesh82@gmail.com
+[twitter1]: https://twitter.com/Pratham_82
