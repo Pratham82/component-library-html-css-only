@@ -80,3 +80,45 @@
   border-radius: var(--rounded-md);
   border: var(--u-1) solid var(--color-secondary-tint);
 }
+.respHam {
+  display: none;
+}
+
+.respSidebar {
+  display: none;
+  width: 0px;
+  cursor: pointer;
+}
+
+/* ---------------------Media queries-------------------- */
+@media screen and (max-width: 620px) {
+  .sidebar {
+    display: none;
+  }
+  .respHam {
+    display: inline;
+    cursor: pointer;
+  }
+
+  .respSidebar {
+    width: 50%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: var(--u-20);
+    padding-left: var(--u-10);
+    margin-top: var(--u-24);
+
+    background-color: var(--color-light);
+    font-family: var(--primary-font);
+
+    position: absolute;
+    overflow: visible;
+    z-index: 8;
+  }
+  .respSidebar h3 {
+    font-size: var(--text-base);
+  }
+}

@@ -753,6 +753,6 @@
   border: var(--u-1) solid var(--color-dark);
 }
 
-/* .item {
-  flex-grow: 1;
-} */
+.text-dark {
+  color: var(--color-dark);
+}
