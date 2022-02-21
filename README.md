@@ -69,3 +69,17 @@ cd min-ui
 #### Slider
 
 #### Utility classes
+
+<br/>
+
+## Connect with me
+
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
+[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter1]
+[<img src = "https://img.shields.io/badge/gmail-%23E4405F.svg?&style=for-the-badge&logo=gmail&logoColor=white">][gmail]
+
+[website]: https://blog-2020-pratham82.netlify.app/
+[instagram]: https://instagram.com/pratham82
+[linkedin]: https://www.linkedin.com/in/prathameshmali/
+[gmail]: mailto:http://www.mali.prathamesh82@gmail.com
+[twitter1]: https://twitter.com/Pratham_82
