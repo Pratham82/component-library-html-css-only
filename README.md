@@ -14,34 +14,58 @@ Add following link tag to index.html for using the components.
 <link rel="stylesheet" href="https://min-ui.netlify.app/src/css/minui.css" />
 ```
 
+### Running in local
+
+Clone the project
+
+```shell
+git clone https://github.com/Pratham82/min-ui
+```
+
+Navigate to the project
+
+```
+cd min-ui
+```
+
 <br/>
 
-## Components included
+## Components
 
-### Avatar
+---
 
-### Alert
+#### Avatar
 
-### Badge
+#### Alert
 
-### Button
+#### Badge
 
-### Card
+#### Button
 
-### Image
+#### Card
 
-### Input
+#### Image
 
-### Grid
+#### Input
 
-### List
+---
 
-### Modal
+#### Grid
 
-### Navigation
+#### List
 
-### Rating
+#### Modal
 
-### Text Utilities
+#### Navigation
 
-### Toast
+#### Rating
+
+#### Text Utilities
+
+#### Toast
+
+---
+
+#### Slider
+
+#### Utility classes
